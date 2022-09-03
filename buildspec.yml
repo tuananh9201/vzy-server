@@ -15,6 +15,5 @@ phases:
       - aws s3 sync build/ s3://code-build-stg --delete
 artifacts:
   base-directory: build
-  type: zip
   files:
     - '**/*'
