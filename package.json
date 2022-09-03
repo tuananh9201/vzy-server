@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
     "build": "rimraf ./build && tsc",
-    "start": "npm install && npm run build && node build/src/index.js"
+    "start": "node build/src/index.js"
   },
   "author": "",
   "license": "ISC",
