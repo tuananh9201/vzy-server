@@ -1,0 +1,154 @@
+{
+    "pageId": "demo",
+    "template":"blank",
+    "pageSettings": {
+        "title": "Blank page",
+        "text": "",
+        "link": "blank",
+        "coverImage": "/assets/images/hero2.jpg"
+    },
+    "components": [
+        {
+            "type": "header",
+            "data": {
+                "logoType": "text",
+                "logoUrlLight": "",
+                "logoUrlDark": "",
+                "logoText": "Vzy",
+                "menus": [
+                    {
+                        "text": "Home",
+                        "link": "/home"
+                    },
+                    {
+                        "text": "About",
+                        "link": "/about"
+                    },
+                    {
+                        "text": "Contact",
+                        "link": "/contacts"
+                    }
+                ],
+                "buttonText": "Add Link",
+                "buttonLink": "",
+                "opensInNewTab": false,
+                "layout": "header-1",
+                "showAnnouncementText": true,
+                "announcementText": "Hello! Click any section to edit "
+            }
+        },
+        {
+            "type": "hero",
+            "data": {
+                "title": "Main heading",
+                "subtitle": "A catchy description that drives visitors to take action",
+                "media": "image",
+                "imageUrl": "",
+                "videoUrl": "https://www.youtube.com/watch?v=MZHLAA3Wg3Y",
+                "playsInFullScreen": false,
+                "action": "button",
+                "buttonText": "Click here",
+                "inputs": {
+                    "email": true,
+                    "name": false
+                },
+                "link": "",
+                "opensInNewTab": true,
+                "textAlign": "left",
+                "imageHeight": 400,
+                "layout": "hero-1"
+            }
+        },
+        {
+            "type": "cards",
+            "data": {
+                "title": "Add Heading",
+                "subtitle": "",
+                "cards": [
+                    {
+                        "mediaType": "image",
+                        "mediaUrl": "",
+                        "title": "Add title",
+                        "text": "Add text here",
+                        "link": "",
+                        "opensInNewTab": false
+                    },
+                    {
+                        "mediaType": "image",
+                        "mediaUrl": "",
+                        "title": "Add title",
+                        "text": "Add text here",
+                        "link": "",
+                        "opensInNewTab": false
+                    },
+                    {
+                        "mediaType": "image",
+                        "mediaUrl": "",
+                        "title": "Add title",
+                        "text": "Add text here",
+                        "link": "",
+                        "opensInNewTab": false
+                    },
+                    {
+                        "mediaType": "image",
+                        "mediaUrl": "",
+                        "title": "Add title",
+                        "text": "Add text here",
+                        "link": "",
+                        "opensInNewTab": false
+                    },
+                    {
+                        "mediaType": "image",
+                        "mediaUrl": "",
+                        "title": "Add title",
+                        "text": "Add text here",
+                        "link": "",
+                        "opensInNewTab": false
+                    },
+                    {
+                        "mediaType": "image",
+                        "mediaUrl": "",
+                        "title": "Add title",
+                        "text": "Add text here",
+                        "link": "",
+                        "opensInNewTab": false
+                    }
+                ],
+                "layout": "card-1",
+                "columns": 3,
+                "textAlign": "left",
+                "imageHeight": 300,
+                "display": "grid",
+                "showImage": true,
+                "showDescription": true,
+                "shortenDescription": true
+            }
+        },
+        {
+            "type": "footer",
+            "data": {
+                "showSiteLogo": true,
+                "showTextAfterLogo": true,
+                "showSocialIcons": true,
+                "showMenu": true,
+                "showMadeWithVzy": true,
+                "layout": "footer-3",
+                "socials": [
+                    {
+                        "name": "twitter",
+                        "placeholder": "@username",
+                        "link": "",
+                        "icon": "M8.2896 20.1256C15.8368 20.1256 19.9648 13.8728 19.9648 8.45036C19.9648 8.27276 19.9648 8.09596 19.9528 7.91996C20.7559 7.33909 21.4491 6.61987 22 5.79596C21.2511 6.12781 20.4567 6.34543 19.6432 6.44157C20.4998 5.92875 21.1409 5.12218 21.4472 4.17197C20.6417 4.64993 19.7605 4.98677 18.8416 5.16796C17.5697 3.81548 15.5486 3.48445 13.9116 4.36051C12.2747 5.23656 11.429 7.10183 11.8488 8.91036C8.54952 8.74496 5.47558 7.18662 3.392 4.62317C2.3029 6.49808 2.85919 8.89665 4.6624 10.1008C4.00939 10.0814 3.37062 9.90526 2.8 9.58717C2.8 9.60397 2.8 9.62157 2.8 9.63917C2.80053 11.5924 4.1774 13.2748 6.092 13.6616C5.4879 13.8263 4.85406 13.8504 4.2392 13.732C4.77676 15.4035 6.31726 16.5486 8.0728 16.5816C6.61979 17.7235 4.82485 18.3434 2.9768 18.3416C2.65032 18.3409 2.32416 18.3212 2 18.2824C3.87651 19.4866 6.05993 20.1253 8.2896 20.1224"
+                    },
+                    {
+                        "name": "linkedIn",
+                        "placeholder": "Linkedin profile",
+                        "link": "",
+                        "icon": "M20.525 2H3.475C2.66667 2 2 2.64167 2 3.43333V20.5667C2 21.3583 2.66667 22 3.475 22H20.525C21.3417 22 22 21.3583 22 20.5667V3.43333C22 2.64167 21.3333 2 20.525 2ZM8.05833 18.75H5.04167V9.7H8.05833V18.75ZM6.55833 8.46667H6.53333C5.51667 8.46667 4.86667 7.775 4.86667 6.90833C4.86667 6.025 5.53333 5.35 6.575 5.35C7.60833 5.35 8.24167 6.01667 8.25833 6.90833C8.25833 7.775 7.60833 8.46667 6.55 8.46667H6.55833ZM18.95 18.75H15.925V13.9167C15.925 12.7083 15.4917 11.875 14.4 11.875C13.5667 11.875 13.0667 12.4333 12.8417 12.975C12.7583 13.1667 12.75 13.4333 12.75 13.7083V18.75H9.73333C9.73333 18.75 9.775 10.5667 9.73333 9.71667H12.7583V11C13.3149 10.0341 14.3611 9.45642 15.475 9.5C17.4667 9.5 18.9583 10.8 18.9583 13.575V18.75H18.95Z"
+                    }
+                ],
+                "textAfterLogo": "Vzy helps everyone create websites in less than 30 minutes. No code required. "
+            }
+        }
+    ]
+}

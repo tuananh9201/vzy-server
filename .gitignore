@@ -1,0 +1,14 @@
+/node_modules
+/lib
+/build
+workspace.code-workspace
+.env
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+/key
+/src/modules/extra
+/uploads
+test.js

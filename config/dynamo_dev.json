@@ -1,0 +1,7 @@
+{
+    "AWS Access Key ID": "fakeMyKeyId",
+    "AWS Secret Access Key": "fakeSecretAccessKey",
+    "region": "us-west-2",
+    "output": "json",
+    "endpoint":"http://localhost:8000"
+}
