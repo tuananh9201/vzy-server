@@ -12,7 +12,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - aws s3 sync build/ s3://clambdas --delete
+      - aws s3 sync build/ s3://code-build-stg --delete
 artifacts:
   type: zip
   base-directory: build
